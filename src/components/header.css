@@ -18,4 +18,5 @@ header{
 
 header p {
   font-size: 1.1rem;
+  justify-self: right;
 }
