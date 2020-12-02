@@ -2,6 +2,7 @@ import './App.css';
 import React from "react";
 import Header from "./components/header";
 import Metals from "./metals.json";
+import Gameboard from "./components/Gameboard";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header score={this.state} />
+        <Gameboard metals={this.state.Metals} />
       </div>
     );
   }
