@@ -88,6 +88,7 @@ class Gameboard extends React.Component{
       <main>
         {this.state.Metals.map(Metal => (
           <Card
+            key={Metal.id}
             id={Metal.id}
             metal={Metal.metal}
             image={Metal.image}
