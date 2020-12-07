@@ -1,26 +1,96 @@
 import React from "react";
 import Card from "./card";
-import Metals from "./metals.json";
 
 class Gameboard extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      Metals
+      Metals: [
+        {
+          "id": 1,
+          "metal":"Calcium",
+          "clicked": false,
+          "image": "./images/calcium.jpg"
+        },
+        {
+          "id": 2,
+          "metal": "Chromium",
+          "clicked": false,
+          "image": "./images/chromium.jpg"
+        },
+        {
+          "id": 3,
+          "metal": "Copper",
+          "clicked": "false",
+          "image": "./images/copper.jpg"
+        },
+        {
+          "id": 4,
+          "metal": "Gold",
+          "clicked": false,
+          "image": "./images/gold.jpg"
+        },
+        {
+          "id": 5,
+          "metal": "Iridium",
+          "clicked": false,
+          "image": "./images/iridium.jpg"
+        },
+        {
+          "id": 6,
+          "metal": "Iron",
+          "clicked": false,
+          "image": "./images/iron.jpg"
+        },
+        {
+          "id": 7,
+          "metal": "Lead",
+          "clicked": false,
+          "image": "./images/lead.jpg"
+        },
+        {
+          "id": 8,
+          "metal": "Magnesium",
+          "clicked": false,
+          "image": "./images/magnesium.jpg"
+        },
+        {
+          "id": 9,
+          "metal": "Potassium",
+          "clicked": false,
+          "image": "./images/potassium.jpg"
+        },
+        {
+          "id": 10,
+          "metal": "Sodium",
+          "clicked": false,
+          "image": "./images/sodium.jpg"
+        },
+        {
+          "id": 11,
+          "metal": "Titanium",
+          "clicked": false,
+          "image": "./images/titanium.jpg"
+        },
+        {
+          "id": 12,
+          "metal": "Vanadium",
+          "clicked": false,
+          "image": "./images/vanadium.jpg"
+        }
+      ]
     }
 
   }
 
   render() {
-    return (
-      <main>
-        <Card
-          id={this.state.Metals[0].id}
-          image={this.state.Metals[0].image}
-          metal={this.state.Metals[0].metal}
-        />
-      </main>
-    );
+    return(
+      <Card
+        id={this.state.Metals[0].id}
+        metal={this.state.Metals[0].metal}
+        image={this.state.Metals[0].image}
+      />
+    )
   }
 }
 
