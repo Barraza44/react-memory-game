@@ -1,82 +1,94 @@
 import React from "react";
 import Card from "./card";
+import Calcium from "../images/calcium.jpg";
+import Chromium from "../images/chromium.jpg";
+import Copper from "../images/copper.jpg";
+import Gold from "../images/gold.jpg";
+import Iridium from "../images/iridium.jpg";
+import Iron from "../images/iron.jpg";
+import Lead from "../images/lead.jpg";
+import Magnesium from "../images/magnesium.jpg";
+import Sodium from "../images/sodium.jpg";
+import Potassium from "../images/potassium.jpg";
+import Titanium from "../images/titanium.jpg";
+import Vanadium from "../images/vanadium.jpg";
 
-class Gameboard extends React.Component{
+class Gameboard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       Metals: [
         {
           "id": 1,
-          "metal":"Calcium",
+          "metal": "Calcium",
           "clicked": false,
-          "image": "./images/calcium.jpg"
+          "image": Calcium
         },
         {
           "id": 2,
           "metal": "Chromium",
           "clicked": false,
-          "image": "./images/chromium.jpg"
+          "image": Chromium
         },
         {
           "id": 3,
           "metal": "Copper",
           "clicked": "false",
-          "image": "./images/copper.jpg"
+          "image": Copper
         },
         {
           "id": 4,
           "metal": "Gold",
           "clicked": false,
-          "image": "./images/gold.jpg"
+          "image": Gold
         },
         {
           "id": 5,
           "metal": "Iridium",
           "clicked": false,
-          "image": "./images/iridium.jpg"
+          "image": Iridium
         },
         {
           "id": 6,
           "metal": "Iron",
           "clicked": false,
-          "image": "./images/iron.jpg"
+          "image": Iron
         },
         {
           "id": 7,
           "metal": "Lead",
           "clicked": false,
-          "image": "./images/lead.jpg"
+          "image": Lead
         },
         {
           "id": 8,
           "metal": "Magnesium",
           "clicked": false,
-          "image": "./images/magnesium.jpg"
+          "image": Magnesium
         },
         {
           "id": 9,
           "metal": "Potassium",
           "clicked": false,
-          "image": "./images/potassium.jpg"
+          "image": Potassium
         },
         {
           "id": 10,
           "metal": "Sodium",
           "clicked": false,
-          "image": "./images/sodium.jpg"
+          "image": Sodium
         },
         {
           "id": 11,
           "metal": "Titanium",
           "clicked": false,
-          "image": "./images/titanium.jpg"
+          "image": Titanium
         },
         {
           "id": 12,
           "metal": "Vanadium",
           "clicked": false,
-          "image": "./images/vanadium.jpg"
+          "image": Vanadium
         }
       ]
     }
@@ -84,7 +96,7 @@ class Gameboard extends React.Component{
   }
 
   render() {
-    return(
+    return (
       <main>
         {this.state.Metals.map(Metal => (
           <Card
