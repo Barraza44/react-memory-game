@@ -10,7 +10,7 @@ import Lead from "../images/lead.jpg";
 import Magnesium from "../images/magnesium.jpg";
 import Sodium from "../images/sodium.jpg";
 import Potassium from "../images/potassium.jpg";
-import Titanium from "../images/titanium.jpg";
+import Titanium from "../images/titanium.JPG";
 import Vanadium from "../images/vanadium.jpg";
 
 class Gameboard extends React.Component {
