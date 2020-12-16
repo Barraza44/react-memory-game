@@ -92,7 +92,11 @@ class Gameboard extends React.Component {
         }
       ]
     }
+    this.handleClick.bind(this);
+  }
 
+  handleClick = () => {
+    console.log("Clicked!");
   }
 
   render() {
@@ -104,6 +108,7 @@ class Gameboard extends React.Component {
             id={Metal.id}
             metal={Metal.metal}
             image={Metal.image}
+            handleClick={this.handleClick}
           />
         ))}
       </main>

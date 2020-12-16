@@ -8,7 +8,7 @@ class Card extends React.Component{
 
   render() {
     return(
-     <motion.div whileHover={{scale: 2.5, x: 3}} id={`card${this.props.id}`}>
+     <motion.div  id={`card${this.props.id}`} onClick={this.props.handleClick}>
        <img src={this.props.image} alt=""/>
        <p>{this.props.metal}</p>
      </motion.div>
