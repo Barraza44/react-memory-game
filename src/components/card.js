@@ -1,5 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
+import "./card.css"
 
 class Card extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Card extends React.Component {
       <motion.div
         id={`card${this.props.id}`}
         onClick={this.props.handleClick}
-        class="card-div"
+        className="card-div"
       >
         <img src={this.props.image} alt=""/>
         <p>{this.props.metal}</p>

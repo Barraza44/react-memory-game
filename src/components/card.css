@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+.card-div{
+  height: 200px;
+}
+
+.card-div img {
+  width: 90%;
+}
