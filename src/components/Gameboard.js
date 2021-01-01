@@ -12,6 +12,7 @@ import Sodium from "../images/sodium.jpg";
 import Potassium from "../images/potassium.jpg";
 import Titanium from "../images/titanium.JPG";
 import Vanadium from "../images/vanadium.jpg";
+import "./gameboard.css";
 
 class Gameboard extends React.Component {
   constructor(props) {
