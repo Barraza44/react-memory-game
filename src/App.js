@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header score={this.state} />
-        <Gameboard  />
+        <Gameboard score={this.state} />
       </div>
     );
   }
