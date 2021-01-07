@@ -14,6 +14,12 @@ class Card extends React.Component {
         id={`card${id}`}
         onClick={() => handleClick(id)}
         className="card-div"
+        whileHover={{
+          scale: 1.4
+        }}
+        whileTap={{
+          scale: 0.8
+        }}
       >
         <img src={image} alt=""/>
         <p>{metal}</p>
