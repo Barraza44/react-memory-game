@@ -8,14 +8,15 @@ class Card extends React.Component {
   }
 
   render() {
+    const { id, metal, image, handleClick } = this.props;
     return (
       <motion.div
-        id={`card${this.props.id}`}
-        onClick={this.props.handleClick}
+        id={`card${id}`}
+        onClick={() => handleClick(id)}
         className="card-div"
       >
-        <img src={this.props.image} alt=""/>
-        <p>{this.props.metal}</p>
+        <img src={image} alt=""/>
+        <p>{metal}</p>
       </motion.div>
     );
   }
