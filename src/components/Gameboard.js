@@ -91,12 +91,13 @@ class Gameboard extends React.Component {
           "clicked": false,
           "image": Vanadium
         }
-      ]
+      ],
+      Clicked: false
     }
     this.handleClick.bind(this);
   }
 
-  handleClick = () => {
+  handleClick = (id) => {
     console.log("Clicked!");
   }
 
