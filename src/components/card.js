@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import "./card.css"
 
 class Card extends React.Component {
@@ -14,12 +14,21 @@ class Card extends React.Component {
         id={`card${id}`}
         onClick={() => handleClick(id)}
         className="card-div"
+        initial={{
+          opacity: 0.1,
+          scale: 0.1
+        }}
+        animate={{
+          opacity: 1,
+          scale: 1
+        }}
         whileHover={{
           scale: 1.4
         }}
         whileTap={{
           scale: 0.8
         }}
+        layout
       >
         <img src={image} alt=""/>
         <p>{metalName}</p>
