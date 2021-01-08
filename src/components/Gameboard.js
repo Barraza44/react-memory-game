@@ -131,7 +131,7 @@ class Gameboard extends React.Component {
           <Card
             key={Metal.id}
             id={Metal.id}
-            metal={Metal.metal}
+            metalName={Metal.metal}
             image={Metal.image}
             handleClick={this.handleClick}
           />

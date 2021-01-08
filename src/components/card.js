@@ -8,7 +8,7 @@ class Card extends React.Component {
   }
 
   render() {
-    const { id, metal, image, handleClick } = this.props;
+    const { id, metalName, image, handleClick } = this.props;
     return (
       <motion.div
         id={`card${id}`}
@@ -22,7 +22,7 @@ class Card extends React.Component {
         }}
       >
         <img src={image} alt=""/>
-        <p>{metal}</p>
+        <p>{metalName}</p>
       </motion.div>
     );
   }
