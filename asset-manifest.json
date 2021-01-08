@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.fe6140b7.chunk.css",
+    "main.js": "/react-memory-game/static/js/main.875f11ac.chunk.js",
+    "main.js.map": "/react-memory-game/static/js/main.875f11ac.chunk.js.map",
+    "runtime-main.js": "/react-memory-game/static/js/runtime-main.53f1ea9f.js",
+    "runtime-main.js.map": "/react-memory-game/static/js/runtime-main.53f1ea9f.js.map",
+    "static/js/2.73f66acb.chunk.js": "/react-memory-game/static/js/2.73f66acb.chunk.js",
+    "static/js/2.73f66acb.chunk.js.map": "/react-memory-game/static/js/2.73f66acb.chunk.js.map",
+    "static/js/3.78078ac5.chunk.js": "/react-memory-game/static/js/3.78078ac5.chunk.js",
+    "static/js/3.78078ac5.chunk.js.map": "/react-memory-game/static/js/3.78078ac5.chunk.js.map",
+    "index.html": "/react-memory-game/index.html",
+    "static/css/main.fe6140b7.chunk.css.map": "/react-memory-game/static/css/main.fe6140b7.chunk.css.map",
+    "static/js/2.73f66acb.chunk.js.LICENSE.txt": "/react-memory-game/static/js/2.73f66acb.chunk.js.LICENSE.txt",
+    "static/media/calcium.45a38296.jpg": "/react-memory-game/static/media/calcium.45a38296.jpg",
+    "static/media/chromium.5baa4edc.jpg": "/react-memory-game/static/media/chromium.5baa4edc.jpg",
+    "static/media/copper.9b90cd93.jpg": "/react-memory-game/static/media/copper.9b90cd93.jpg",
+    "static/media/gold.34e1db0e.jpg": "/react-memory-game/static/media/gold.34e1db0e.jpg",
+    "static/media/iridium.52613197.jpg": "/react-memory-game/static/media/iridium.52613197.jpg",
+    "static/media/iron.ad000515.jpg": "/react-memory-game/static/media/iron.ad000515.jpg",
+    "static/media/lead.b4be2200.jpg": "/react-memory-game/static/media/lead.b4be2200.jpg",
+    "static/media/magnesium.89c59f41.jpg": "/react-memory-game/static/media/magnesium.89c59f41.jpg",
+    "static/media/potassium.a95c7262.jpg": "/react-memory-game/static/media/potassium.a95c7262.jpg",
+    "static/media/sodium.b6021414.jpg": "/react-memory-game/static/media/sodium.b6021414.jpg",
+    "static/media/titanium.a815239b.JPG": "/react-memory-game/static/media/titanium.a815239b.JPG",
+    "static/media/vanadium.25343687.jpg": "/react-memory-game/static/media/vanadium.25343687.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53f1ea9f.js",
+    "static/js/2.73f66acb.chunk.js",
+    "static/css/main.fe6140b7.chunk.css",
+    "static/js/main.875f11ac.chunk.js"
+  ]
+}
