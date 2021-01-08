@@ -116,6 +116,14 @@ class Gameboard extends React.Component {
     return arr;
   }
 
+  randomizeArray = () => {
+    const randomizedArray = this.randomize(this.state.Metals);
+    this.setState(
+      {
+        Metals: randomizedArray
+      });
+  }
+
   render() {
     return (
       <main>
