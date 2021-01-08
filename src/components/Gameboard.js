@@ -98,7 +98,22 @@ class Gameboard extends React.Component {
   }
 
   handleClick = (id) => {
-    console.log("Clicked!");
+    console.log(id);
+  }
+
+  randomize = (arr) => {
+    let index = arr.length;
+    let tempValue = 0;
+    let randomValue = 0;
+    while (index !== 0) {
+      randomValue = Math.floor(Math.random() * index);
+      index--;
+
+      tempValue = arr[index];
+      arr[index] = arr[randomValue];
+      arr[randomValue] = tempValue;
+    }
+    return arr;
   }
 
   render() {
