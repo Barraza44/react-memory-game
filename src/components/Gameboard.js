@@ -98,8 +98,30 @@ class Gameboard extends React.Component {
   }
 
   handleClick = (id) => {
-    console.log(id);
+    this.randomizeArray();
+    this.handleScore(id);
   }
+
+  handleScore = (id) => {
+    const {score, increment, setHighScore} = this.props
+    for (const metal of this.state.Metals) {
+      if (id === metal.id && metal.clicked === false) {
+        metal.clicked = true;
+        this.setState({
+          Clicked: false
+        })
+        increment();
+      } else if (id === metal.id && metal.clicked) {
+        setHighScore();
+        this.setState({
+          Clicked: true
+        });
+        this.state.Metals.forEach(element => element.clicked = false);
+
+      }
+    }
+  }
+
 
   randomize = (arr) => {
     let index = arr.length;
